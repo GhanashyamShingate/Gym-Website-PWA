@@ -2,7 +2,7 @@ html{overflow-x: hidden;}
 .container1 {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
   box-sizing: border-box;
 }
 /* Header */
@@ -178,19 +178,20 @@ h1 {
   font-weight: 300;
   text-align: center;
   color: #289df6;
-  padding-top: 90px;
   display: block;
 }
 h2 {
   font-size: 22px;
   font-weight: 300;
   text-align: center;
+  margin-bottom: 90%;
 }
 h3 {
   font-size: 24px;
   font-weight: 300;
   text-align: center;
   padding: 15px;
+  
 }
 h3 b {
   font-size: 32px;

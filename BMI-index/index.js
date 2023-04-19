@@ -55,6 +55,7 @@ function countBmi() {
     h2.appendChild(r);
     document.body.appendChild(h1);
     document.body.appendChild(h2);
+
     document.getElementById("submit").removeEventListener("click", countBmi);
     document
         .getElementById("submit")
