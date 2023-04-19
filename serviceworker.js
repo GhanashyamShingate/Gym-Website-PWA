@@ -7,11 +7,11 @@ self.addEventListener("install", (evt) => {
       .then((cache) =>
         cache.addAll([
           "index.html",
-          "manifest.json",
+          "/manifest.json",
           "/CSS/style.css",
-          "notification.js",
-          "favicon.png",
-          "icon-512.png",
+          "/notification.js",
+          "/favicon.png",
+          "/icon-512.png",
         ])
       )
       .catch((err) => console.error(err))
