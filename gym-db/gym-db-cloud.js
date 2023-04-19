@@ -16,7 +16,7 @@ class GymDB {
     this.appName = "Gym PWA";
     this.db = null;
     this.isAvailable = false;
-    console.log('Song db initialized!');
+    console.log('Song db cloud initialized!');
   }
 
   open() {

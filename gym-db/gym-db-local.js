@@ -1,11 +1,12 @@
 /**
  * GameDB Interface using IndexedDB
  */
- class GameDB {
+ class GymDB {
     constructor() {
       this.storeName = 'GymFit';
       this.isAvailable = false;
       this.db = null;
+      console.log('Song db local initialized!');
     }
   
     /**
@@ -57,3 +58,7 @@
   
       });
     }
+
+ }
+
+ export default new GymDB;

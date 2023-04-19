@@ -4,6 +4,8 @@ var weight = document.getElementById("weight");
 var male = document.getElementById("m");
 var female = document.getElementById("f");
 var form = document.getElementById("form");
+
+
 function validateForm() {
     if (
         age.value == "" ||
@@ -21,6 +23,8 @@ function validateForm() {
 }
 document.getElementById("submit").addEventListener("click", validateForm);
 function countBmi() {
+
+    console.log('Inside count BMI function')
     var p = [age.value, height.value, weight.value];
     if (male.checked) {
         p.push("male");
