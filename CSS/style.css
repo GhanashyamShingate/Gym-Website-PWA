@@ -83,7 +83,7 @@ p {
   align-items: center;
   /* padding: 1.2rem; */
 }
-.btn {
+#btn {
   display: flex;
   justify-content: center;
   align-items: center;
