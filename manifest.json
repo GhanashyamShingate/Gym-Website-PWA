@@ -1,6 +1,7 @@
 {
-  "name": "Demo PWA",
-  "short_name": "Demo",
+  "name": "Gym PWA",
+  "short_name": "gym",
+  "description": "Gym fitness app",
   "icons": [{
     "src": "favicon.png",
     "sizes": "64x64",
@@ -13,6 +14,6 @@
   "start_url": "1-index.html",
   "scope": "/",
   "background_color": "white",
-  "theme_color": "white",
+  "theme_color": "red",
   "display": "standalone"
 }
