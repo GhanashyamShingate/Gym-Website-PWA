@@ -64,30 +64,22 @@ function displayNotification() {
   //newForm.style.display = "none";
   //
   //debugger;
-}
-
-notification.addEventListener("click", () => {
   if (Notification.permission === "granted") {
     console.log("In showbutton");
-    const titleOfNotification = document.getElementById("Title").value;
-    const body = document.getElementById("body").value;
-    if (!titleOfNotification) {
-      alert("The title field is required.");
-    } else {
-      const Option = {
-        body: body,
-        icon: "/icons/android-chrome-36x36.png",
-        actions: [
-          { action: "Agree", title: "Agree" },
-          { action: "DisAgree", title: "Disagree" },
-        ],
-      };
-      //new Notification(title, Option);
-      navigator.serviceWorker.ready.then((registration) => {
-        registration.showNotification(titleOfNotification, Option);
-      });
-    }
+    const titleOfNotification = "Welcome To Gymwala News";
+    const Option = {
+      body: "Thanks for Subscribing",
+      icon: "/icons/android-chrome-36x36.png",
+      actions: [
+        { action: "Agree", title: "Agree" },
+        { action: "DisAgree", title: "Disagree" },
+      ],
+    };
+    //new Notification(title, Option);
+    navigator.serviceWorker.ready.then((registration) => {
+      registration.showNotification(titleOfNotification, Option);
+    });
   } else {
     alert("Permission is not granted");
   }
-});
+}
