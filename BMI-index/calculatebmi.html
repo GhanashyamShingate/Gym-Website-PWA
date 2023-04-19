@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style CSS -->
     <link rel="stylesheet" href="/BMI-index/style.css">
+
+    <!-- Javascript -->
     <script src="/BMI-index/index.js" type="module"></script>
-    <title>Calculate BMI</title>
+
+    <meta
+      name="keywords"
+      content="gym, health and fitness, gym fitness, gym near me, treadmill, body building, exercise, workout, workout centre near me, cardio, personal trainer, exercise bike, aerobic, 
+	  fitness studio, abs workout, lifetime fitness, gym equipment, gym trainer, personal fitness, aerobic exercise, world gym, crunches, healthy diet, healthy routine, exercise routine, 
+	  gym routine, gym time, fitness freak, yoga, yoga classes, yoga fitness, diet plan, eggs diet plan, vegetables diet plan"
+    />
+    <meta
+      name="description"
+      content="We are gym website located in London Ontario. We provide all kind of gym training exercise at our centre, teach yoga as well and provide diet plans according to experts."
+    />
+
+        <!-- (B) ICONS & PLATFORM SPECIFIC -->
+    <!-- (B1) GOOD OLD FAVICON -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <!-- (B2) ANDROID/CHROME -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="white" />
+
+    <!-- (B3) IOS APP ICON + MOBILE SAFARI -->
+    <link rel="apple-touch-icon" href="icon-512.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Hello World" />
+
+    <!-- (B4) WINDOWS -->
+    <meta name="msapplication-TileImage" content="icon-512.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- (C) WEB APP MANIFEST -->
+    <!-- https://web.dev/add-manifest/ -->
+    <link rel="manifest" href="2-manifest.json" />
+
+    <!-- (D) SERVICE WORKER -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("3-sw.js");
+      }
+    </script>
+    
+    <title>Calculte BMI</title>
 </head>
 <body>
     <h3><b>B</b>ody <b>M</b>ass <b>I</b>ndex</h3>
