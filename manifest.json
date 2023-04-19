@@ -2,16 +2,19 @@
   "name": "Gym PWA",
   "short_name": "gym",
   "description": "Gym fitness app",
-  "icons": [{
-    "src": "favicon.png",
-    "sizes": "64x64",
-    "type": "image/png"
-  }, {
-    "src": "icon-512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }],
-  "start_url": "1-index.html",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
   "scope": "/",
   "background_color": "white",
   "theme_color": "red",
