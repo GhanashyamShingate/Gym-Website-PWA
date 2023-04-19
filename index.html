@@ -18,7 +18,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.5"
     />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
 
     <!-- (B) ICONS & PLATFORM SPECIFIC -->
     <!-- (B1) GOOD OLD FAVICON -->
@@ -55,17 +55,181 @@
     -->
   </head>
   <body>
-    <header>
-      <header class="header">
-        <h1 class="logo"><a href="#">BODYPOWER</a></h1>
-        <ul class="main-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="feedback.html">Feedback</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="identity">
+          <img
+            src="/IMAGES/istockphoto-1168088290-612x612.jpg"
+            alt="My Gym App"
+          />
+          <h1>Gymwala</h1>
+        </div>
+        <nav id="main-menu">
+          <a href="/index.html">Home</a>
+          <a href="/pages/add/">CalculateBMI</a>
+          <a href="/pages/list/">Members</a>
+        </nav>
       </header>
-    </header>
+      <main>
+        <section id="hero">
+          <h1>Welcome to My Gym</h1>
+          <p>
+            Get fitness and healthy tips from our top-of-the-line trainers and
+            expert by simply subscribing to our newsletter.
+          </p>
+          <button href="#" class="btn">Subscribe</button>
+        </section>
+
+        <section id="services">
+          <h2>Our Services</h2>
+          <div class="row">
+            <div class="column">
+              <img
+                src="/IMAGES/istockphoto-925425730-612x612.jpg"
+                alt="Cardio Equipment"
+              />
+            </div>
+            <div class="column">
+              <h3>Cardio Equipment</h3>
+              <p>
+                We have a wide range of cardio equipment to help you burn
+                calories and improve your cardiovascular health.
+              </p>
+              <ol>
+                <li>
+                  <p>
+                    Treadmill: A treadmill is a machine that simulates walking,
+                    jogging, or running indoors. It has a moving belt that the
+                    user stands on and can adjust the speed and incline to mimic
+                    outdoor terrain.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Stationary bike: A stationary bike is a piece of equipment
+                    that resembles a bicycle but is stationary. It can be used
+                    for low-impact cardio exercise and has adjustable resistance
+                    settings.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Elliptical trainer: An elliptical trainer is a cross between
+                    a stationary bike and a stair climber. It has two pedals
+                    that move in an oval pattern, simulating the motion of
+                    walking or running.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img
+                src="/IMAGES/istockphoto-503416862-612x612.jpg"
+                alt="Strength Training Equipment"
+              />
+            </div>
+            <div class="column">
+              <h3>Strength Training Equipment</h3>
+              <p>
+                Our strength training equipment is designed to help you build
+                muscle and increase your strength.
+              </p>
+              <ol>
+                <li>
+                  <p>
+                    Free weights: Free weights are versatile and include
+                    dumbbells, barbells, and kettlebells. They provide a wide
+                    range of resistance levels, allowing for targeted strength
+                    training of specific muscle groups.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Resistance bands: Resistance bands are elastic bands that
+                    can be used for a variety of strength exercises, including
+                    squats, lunges, and bicep curls. They are portable and can
+                    be used at home or on the go.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Medicine balls: Medicine balls are weighted balls that can
+                    be used for a range of exercises, including squats, lunges,
+                    and core exercises. They are versatile and can be used for
+                    both strength and cardio workouts.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img
+                src="/IMAGES/istockphoto-1207041834-612x612.jpg"
+                alt="Group Fitness Classes"
+              />
+            </div>
+            <div class="column">
+              <h3>Group Fitness Classes</h3>
+              <p>
+                Our group fitness classes are led by expert instructors who will
+                help you get the most out of your workout.
+              </p>
+              <ol>
+                <li>
+                  <p>
+                    Aerobics: Aerobics classes are high-energy, choreographed
+                    workouts that focus on cardiovascular exercise. They often
+                    incorporate dance moves, upbeat music, and simple
+                    choreography.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Yoga: Yoga classes focus on building strength, flexibility,
+                    and balance through a series of postures and poses. They can
+                    range from gentle and relaxing to vigorous and challenging.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Indoor cycling: Indoor cycling classes are high-intensity,
+                    cardio-focused workouts on stationary bikes. They are led by
+                    an instructor who guides participants through intervals of
+                    varying resistance levels.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <h2>About Us</h2>
+          <p>
+            Gymwala is committed to helping our members achieve their fitness
+            goals. Our state-of-the-art facilities and expert trainers will
+            provide you with the tools you need to get fit and stay healthy.
+          </p>
+          <button href="#" class="btn">Learn More</button>
+        </section>
+
+        <!-- <section id="testimonial">
+          <h2>What Our Members Say</h2>
+          <blockquote>
+            "I've been a member of My Gym for over a year now, and I've never
+            felt better. The trainers are amazing, and the facilities are
+            top-notch."
+          </blockquote>
+          <cite>John Doe, My Gym Member</cite>
+        </section> -->
+      </main>
+      <footer>
+        <p>&copy; 2023 Gymwala</p>
+      </footer>
+    </div>
   </body>
 </html>
